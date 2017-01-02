@@ -118,6 +118,33 @@ tex_replacements = [
     ('Ψ', r'\(\Psi\)'),
     ('Ω', r'\(\Omega\)'),
     ('Ω', r'\(\Omega\)'),
+    # map common dotted lower-case letters
+    ('ȧ', r'\.{a}'),
+    ('ḃ', r'\.{b}'),
+    ('ċ',  r'\.{c}'),
+    ('ḋ',  r'\.{d}'),
+    ('ė',  r'\.{e}'),
+    ('ḟ',  r'\.{f}'),
+    ('ġ',  r'\.{g}'),
+    ('ḣ',  r'\.{h}'),
+    #('',  r'\.{i}'),  # dotted I not found
+    #('',  r'\.{j}'),  # dotted J not found
+    #('',  r'\.{k}'),  # dotted K not found
+    #('',  r'\.{l}'),  # dotted L not found
+    ('ṁ', r'\.{m}'),
+    ('ṅ',  r'\.{n}'),
+    ('ȯ',  r'\.{o}'),
+    ('ṗ',  r'\.{p}'),
+    #('',  r'\.{q}'),  # dotted Q not found
+    ('ṙ',  r'\.{r}'),
+    ('ṡ',  r'\.{s}'),
+    ('ṫ',  r'\.{t}'),
+    #('',  r'\.{u}'),  # dotted U not found
+    #('',  r'\.{v}'),  # dotted V not found
+    ('ẇ',  r'\.{w}'),
+    ('ẋ',  r'\.{x}'),
+    ('ẏ',  r'\.{y}'),
+    ('ż',  r'\.{z}'),
 ]
 
 tex_escape_map = {}
